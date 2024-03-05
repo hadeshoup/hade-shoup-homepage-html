@@ -1,0 +1,149 @@
+body {
+ 
+  .alegreya-bold {
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  background-color: #D75E7D
+
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+}
+
+/* Grid CSS */
+
+#siteBody {
+  margin: 10px 25%;
+  display: grid;
+  min-height: 600px;
+  height: 70vh;
+  grid-template-rows: fit-content(25% 75%);
+  grid-template-columns: fit-content(50% 50%);
+  grid-template-areas:
+  "mainBio myFace";
+}
+
+.mainBio {
+
+  /* text-align: left; */
+
+  color: black;
+  margin: 0px 20px;
+  max-width: 100%;
+  height: auto;
+  width: auto\9; /* ie8 */
+}
+
+.myFace {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  object-fit: scale-down;
+}
+
+.splash {
+  color: black;
+  max-width: 100%;
+
+}
+
+.active {
+  color: #F69E35;
+}
+
+/* Navigation CSS */
+
+#navBar {
+ margin: 20; 
+  padding: 150;
+    height: 25vh; /* Set the height of the header to 100% of the viewport height */
+  max-height: 150px;
+  justify-content: space-evenly;
+  background-color: black;
+
+}
+
+#navigation {
+  display: flex;
+  width:100%;
+  float:right;
+  align-items: center;
+  justify-content: right;
+}
+
+/*
+header p {
+  display: inline-block;
+  padding: 0 20px;
+  font-family: "Young Serif", serif;
+  color: #D75E7D;
+  font-size: 32px;
+}
+*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li {
+  float: right;
+  text-align: center;
+}
+
+
+li a {
+
+  font-family: "Young Serif", serif;
+  color: #D75E7D;
+  font-size: 32px;
+  line-height: 32px; /*          <-- change this line*/
+  padding: 0 20px;
+  text-decoration: none;
+  margin: 0;
+  height: 100%;
+}
+
+/*
+.highlight {
+  color: #F69E35;
+}
+*/
+
+.icons img {
+
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  max-width: 55%;
+}
+
+/* Typography CSS */
+
+h2 {
+  font-family: "Young Serif", serif;
+  font-size: 60px;
+  margin: 0px 0px;
+  color: black;
+}
+
+h3 {
+  font-family: "Alegreya", serif;
+  font-size: 32px;
+  font-size: 1.5vw;
+  font-weight: 300;
+  color: black;
+}
