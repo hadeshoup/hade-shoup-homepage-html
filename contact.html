@@ -8,8 +8,15 @@
   
   <link href="css/style.css" rel="stylesheet" type="text/css">
   
-  <title>Hade Shoup Contact</title>
-
+  <title>Hade Shoup: Contact</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script> 
+  $(document).ready(function(){
+    $("#flip").click(function(){
+      $("#panel").slideDown("slow");
+    });
+  });
+  </script>
 </head>
 
 <body>
@@ -18,7 +25,7 @@
 
     <div id="navigation">
       <ul>
-        <li><a class="active" href="/contact.html">Contact</a>            </li>  
+        <li><a class="active-navo" href="/contact.html">Contact</a>            </li>  
 
         <li><a href="/resume.html">Resume</a>           </li> 
 
@@ -35,11 +42,12 @@
 </nav>
 </header>
 
-
-
-
-
-
+<section id="workBody">
+  <div>
+  
+<p> My email is hadeshoup@gmail.com </p>
+</div>
+   </section>
  
 </body>
 </html>

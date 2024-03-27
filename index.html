@@ -8,8 +8,7 @@
   
   <link href="css/style.css" rel="stylesheet" type="text/css">
   
-  <title>Hade Shoup Homepage</title>
-
+  <title>Hade Shoup: Homepage</title>
 </head>
 
 <body>
@@ -24,7 +23,7 @@
 
         <li><a href="/work.html">Work</a>           </li>
 
-        <li><a class="active" href="/index.html">About</a>           </li>
+        <li><a class="active-navo" href="/index.html">About</a>           </li>
        </ul>
  
       <div class="icons">
@@ -53,4 +52,14 @@
 
  
 </body>
+
+<script src="js/index.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script> 
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideDown("slow");
+  });
+});
+</script>
 </html>
